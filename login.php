@@ -47,11 +47,21 @@ if (isset($_POST["login"])) {
             font-family: Arial, Helvetica, sans-serif;
         }
         .login {
-            height: 85vh;
+            height: 140vh;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+        }
+        body {
+            color: white;
+            /* background-image: url(netland.png);
+            background-repeat: no-repeat; */
+            background: url(netland.png) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
     </style>
 </head>

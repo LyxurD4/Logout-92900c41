@@ -65,12 +65,16 @@ if(isset($_GET["ratingSortering"])) {
         td {
             border: 1px solid black;
         }
+        .logout {
+            font-size: large;
+            float: right;
+        }
     </style>
 </head>
 <body>
     
 <br>
-<a href="login.php">Terug</a>
+<a class="logout" href="logout.php">Uitloggen</a>
 
 <h1>
     Series
